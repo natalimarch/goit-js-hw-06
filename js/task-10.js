@@ -4,16 +4,6 @@ const destrBtn = document.querySelector('button[data-destroy]');
 const output = document.querySelector("#boxes");
 
 
-
-// console.log(input.value);
-
-// input.addEventListener("input", amountOnInput);
-
-// function amountOnInput(event) {
-//   amount = event.currentTarget.value;
-// }
-// console.log(amount);
-
 const createBoxes = () => {
   let amount = input.value;
   output.innerHTML = "";
@@ -38,9 +28,6 @@ function destrBoxes () {
   output.innerHTML = "";
 }
 
-// destrBtn.addEventListener("click", () => {
-//   destrBtn.removeEventListener("click", );
-// });
 
 
 function getRandomHexColor() {
